@@ -1,0 +1,1 @@
+docker run -ti -p 8545:8545 -p 8546:8546 parity/parity --light --unsafe-expose

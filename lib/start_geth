@@ -1,0 +1,1 @@
+geth --syncmode "light" --ws --wsorigins "*" --rpc --rpccorsdomain "*"
