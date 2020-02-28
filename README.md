@@ -13,6 +13,7 @@ This repo contains a few scripts for testing the limit on the number of WSS subs
 I installed geth natively and ran parity through docker.
 
 [Install Geth](https://geth.ethereum.org/docs/install-and-build/installing-geth)
+
 [Install Parity](https://wiki.parity.io/Docker)
 
 # Running the tests
