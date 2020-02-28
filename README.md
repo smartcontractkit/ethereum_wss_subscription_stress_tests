@@ -2,13 +2,13 @@
 
 This repo contains a few scripts for testing the limit on the number of WSS subscriptions that can be opened with an ethereum client. The purpose of determining this number is so that an appropriate upper bound can be set when developing the Chainlink core node.
 
-### Results:
+#### Results:
 
 - Fiews ~ 1000 (roughly, may be lower based on hardware limitations. Talked to Jonas Hals)
 - Infura - 1000 (see link above)
 - Geth & Parity - 100,000+ (my machine handled 100,000 with minimal lag, but froze at 1M)
 
-# Prerequisites - Install Geth & Parity
+## Prerequisites - Install Geth & Parity
 
 I installed geth natively and ran parity through docker.
 
@@ -16,7 +16,7 @@ I installed geth natively and ran parity through docker.
 
 [Install Parity](https://wiki.parity.io/Docker)
 
-# Running the tests
+## Running the tests
 
 First, run `npm install`
 
