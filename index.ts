@@ -1,7 +1,7 @@
 import Web3 from 'web3'
 const web3 = new Web3('ws://localhost:8546')
 
-const SUBSCRIPTION_COUNT = 1000000
+const SUBSCRIPTION_COUNT = 100000
 const receivedCount: { [key: number]: number } = {}
 const subscriptions: any[] = []
 
